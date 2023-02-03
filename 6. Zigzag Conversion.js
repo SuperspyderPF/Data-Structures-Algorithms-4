@@ -1,0 +1,1 @@
+convert=(s,z)=>{j=[];x=0,m=1;for(i=0;i<s.length;i++){j[x]=j[x]?j[x]+s[i]:s[i];x+=m;if(x===z-1||x===0)m*=-1;}return j.join('')}
